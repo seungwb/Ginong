@@ -88,7 +88,7 @@ public class WebOAuth2UserDetailsService implements OAuth2UserService<OAuth2User
         userDetails.setState(member.isState());
         userDetails.setName(member.getName());
         userDetails.setAuthorities(authorities);
-
+        //test
         return userDetails;
     }
 }
